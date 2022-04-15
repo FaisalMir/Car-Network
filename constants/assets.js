@@ -1,5 +1,6 @@
 //importing all the images and logos for the app
 import logo from "../assets/icons/logo.png";
+import heart from "../assets/icons/heart.png"
 
 import car1 from "../assets/images/car1.jpg";
 import car2 from "../assets/images/car2.jpg";
@@ -10,6 +11,7 @@ import car6 from "../assets/images/car6.jpg";
 
 export default{
     logo,
+    heart,
 
     car1,
     car2,

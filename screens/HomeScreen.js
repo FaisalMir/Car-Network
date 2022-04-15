@@ -13,7 +13,7 @@ const HomeScreen = () => {
         <View style={{zIndex: 0}}>
           <FlatList 
             data={PhotoData}
-            renderItem={({item}) => <Text>{item.title}</Text>}
+            renderItem={({item}) => <PhotoCard data={item} />}
 
             //the item.id specifies that it will be a unique
             //identifer for each element
