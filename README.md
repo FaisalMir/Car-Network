@@ -31,13 +31,21 @@ To install the dependencies setup for the package.json:
 ```
 $ yarn install
 ```
-Or if you would like to use npm instead:
+Or you can use:
 ```
 $ npm install
 ```
 
 # Developer Operating Instructions
-An app developed in React Native as a final project for CS 455 in the University of Regina
+After all the dependencies and libraries are installed from the installtion instructions, the following command has to be used to run the application:
+```
+$ yarn start
+```
+Or you can use:
+```
+$ npm start
+```
+You can run the application via the localhost option. But to run it via an Android Virtual Device, you can download and install Android Studio to do so: https://developer.android.com/studio
 
 # User Operating Instructions
 An app developed in React Native as a final project for CS 455 in the University of Regina
@@ -55,10 +63,10 @@ An app developed in React Native as a final project for CS 455 in the University
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Copyright and License
-An app developed in React Native as a final project for CS 455 in the University of Regina
+Copyright (C) {{2022}} {{Car Network}}
 
 # Contact Information and Support
-An app developed in React Native as a final project for CS 455 in the University of Regina
+For contact information and any support, my email is: fmu234@uregina.ca
 
 # Credit and Acknowledgments
 An app developed in React Native as a final project for CS 455 in the University of Regina
