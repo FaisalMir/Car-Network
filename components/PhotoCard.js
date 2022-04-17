@@ -35,6 +35,34 @@ const PhotoCard = (data) => {
       </View>
 
       <PicInfo />
+
+      <View style={{
+        width: "100%",
+        padding: SIZES.font
+      }}>
+        <PicTitle
+          title={data.name}
+          subTitle={data.creator}
+          subTitleSize={SIZES.small}
+          titleSize={SIZES.large}
+        />
+        <View style={{
+          marginTop: SIZES.font,
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: 'center'
+        }}>
+        </View>
+        <Price price={data.price}/>
+        <RectangleButton 
+          minWidth={120}
+          fontSize={SIZES.font}
+          //Navigating to the next page where the information
+          //about the picture is available
+          handlePress={() => navigation.navigate("Information", {data})}
+        />
+
+      </View>
     </View>
   )
 }

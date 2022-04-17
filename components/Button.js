@@ -1,6 +1,6 @@
 import { View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { COLOURS, SHADOWS, SIZES } from '../constants'
+import { COLOURS, FONTS, SHADOWS, SIZES } from '../constants'
 import { useLinkProps } from '@react-navigation/native'
 
 export const CircleButton = ({imgURL, handlePress, ...props}) => {
@@ -32,10 +32,31 @@ export const CircleButton = ({imgURL, handlePress, ...props}) => {
   )
 }
 
-export const RectangleButton = () => {
+export const RectangleButton = ({minWidth, fontSize, handlePress, ...props}) => {
     return (
-      <View>
-        <Text>Circle</Text>
-      </View>
+      <TouchableOpacity
+
+      //desigining the button for 
+      //going to the page for placing
+      //a bid
+      style={{
+          backgroundColor: COLOURS.primary,
+          borderRadius: SIZES.extraLarge,
+          minWidth: minWidth,
+          padding: SIZES.small,
+          ...props,
+      }}
+          onPress={handlePress}
+      >
+      <Text style={{
+        fontFamily: FONTS.semibold,
+        fontSize: fontSize,
+        color: COLOURS.white,
+        textAlign: 'center'
+      }}>
+        Place a bid here
+      </Text>
+
+  </TouchableOpacity>
     )
   }
