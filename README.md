@@ -63,7 +63,7 @@ An app developed in React Native as a final project for CS 455 in the University
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Copyright and License
-Copyright (C) {{2022}} {{Car Network}}
+Copyright (C) {{ 2022 }} {{ Car Network }}
 
 # Contact Information and Support
 For contact information and any support, my email is: fmu234@uregina.ca
