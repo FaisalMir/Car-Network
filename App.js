@@ -33,8 +33,8 @@ const App = () => {
   return (
     <NavigationContainer theme={theme}>
       <Stack.Navigator screenOption={{ headerShown: false}}
-      initialRouteName="Index">
-        <Stack.Screen name="Index" component={HomeScreen}/>
+      initialRouteName="HomeScreen">
+        <Stack.Screen name="HomeScreen" component={HomeScreen}/>
         <Stack.Screen name="Information" component={Information}/>
       </Stack.Navigator>
     </NavigationContainer>

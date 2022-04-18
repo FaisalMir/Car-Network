@@ -1,10 +1,20 @@
 import {useState} from 'react';
-import {FlatList, Text, SafeAreaView, View} from 'react-native';
+import {FlatList, SafeAreaView, View} from 'react-native';
 
 import {COLOURS, PhotoData} from "../constants";
 import {HomeHeader, PhotoCard, FocusedStatusBar} from "../components";
 
 const HomeScreen = () => {
+  
+  const [PhotoData, setPhotoData] = useState(PhotoData);
+  const handleSearch = (value) => {
+    if(!value.length) return setPhotoData(PhotoData);
+
+    const dataFilter = PhotoData.filter;
+  }
+
+
+
   return (
     <SafeAreaView style={{flex: 1}}>
 
