@@ -15,8 +15,8 @@ To maintain the simplicity and overall effectiveness of this application, the us
 
 # Table of Contents
 * [Installation Instructions](#Installation-Instructions "Goto Installation Instructions")
-* [Developer Operating Instructions](#Developer-Operating-Instructions "Goto Developer Operating Instructions")
-* [User Operating Instructions](#User-Operating-Instructions "Goto User Operating Instructions")
+* [Operating Instructions](#Operating-Instructions "Goto Operating Instructions")
+* [How to use the App](#How-to-use-the-App  "Goto How to use the App ")
 * [Features](#Features "Goto Features")
 * [Bug Lists](#Bug-Lists "Goto Features")
 * [Planned Features to add](#Planned-Features-to-add "Goto Planned Features to add")
