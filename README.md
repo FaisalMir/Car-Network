@@ -50,7 +50,7 @@ Or you can use:
 $ npm install
 ```
 
-# Developer Operating Instructions
+# Operating Instructions 
 After all the dependencies and libraries are installed from the installtion instructions, the following command has to be used to run the application:
 ```
 $ yarn start
@@ -61,7 +61,7 @@ $ npm start
 ```
 You can run the application via the localhost option. But to run it via an Android Virtual Device, you can download and install Android Studio to do so: https://developer.android.com/studio
 
-# User Operating Instructions
+# How to use the App
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Directory Structure
