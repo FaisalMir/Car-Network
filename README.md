@@ -94,4 +94,22 @@ Copyright (C) 2022 Car Network
 For contact information and any support, my email is: fmu324@uregina.ca
 
 # Credit and Acknowledgments
-An app developed in React Native as a final project for CS 455 in the University of Regina
+* For anything regarding React Native, I used this: https://reactnative.dev/docs/getting-started
+* The entirety of the project was coded on Visual Studio Code: https://code.visualstudio.com/
+* For getting started on developing on VS Code and having the right dependencies, I used this: https://blog.expo.dev/expo-cli-2-0-released-a7a9c250e99c
+* For gaining access to a Android Virtual device as I coded, I used Android Studio: https://developer.android.com/studio
+* As well as these other sources:
+  * All the pictures for the cars were taken by me: 
+  https://www.rafhin.com/
+  * Heart Icon
+[https://www.kindpng.com/imgv/bmwbo_love-heart-clipart-royalty-free-heart-hd-png/](https://www.kindpng.com/imgv/bmwbo_love-heart-clipart-royalty-free-heart-hd-png/)
+  * Back button icon
+ [https://www.flaticon.com/free-icon/back-button_93634](https://www.flaticon.com/free-icon/back-button_93634)
+   * How to create a searchbar:
+   https://www.youtube.com/watch?v=B7dn6YlWniI
+    * Bidding app:
+      https://www.youtube.com/watch?v=UG1pPq8gl_c
+    * Guidline for basic React Native coding:
+		https://www.youtube.com/results?search_query=react+native+import
+    * Inspiration behind the overall app
+https://www.youtube.com/watch?v=_ivIUCSOZ78&t=5482s
