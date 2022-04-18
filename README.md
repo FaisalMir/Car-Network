@@ -21,7 +21,11 @@ If you would like to install the application on your computer, following are the
 **Fair warning however:** based on my experience from creating this project, I have faced numerous bugs when it came to using **npm** instead of **yarn** so I would highly suggest using the latter. As well as making sure that the expo-cli and the package manager for yarn/npm is up to date.
 If expo-cli is not installed on your machine, use the following code on your terminal:
 ```
-$yarn global add expo-cli
+$ yarn global add expo-cli
+```
+Or you can use: 
+```
+$ npm install --global expo-cli
 ```
 To clone the application into your own directory:
 ```
@@ -63,7 +67,7 @@ An app developed in React Native as a final project for CS 455 in the University
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Copyright and License
-Copyright (C) {{ 2022 }} {{ Car Network }}
+Copyright (C) 2022 Car Network
 
 # Contact Information and Support
 For contact information and any support, my email is: fmu234@uregina.ca
