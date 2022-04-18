@@ -110,8 +110,8 @@ For contact information and any support, my email is: fmu324@uregina.ca
     * Bidding app:
       https://www.youtube.com/watch?v=UG1pPq8gl_c
     * Guidline for basic React Native coding:
-		https://www.youtube.com/results?search_query=react+native+import
-    * Inspiration behind the overall app
+		https://www.youtube.com/watch?v=6euMQsGt7Qs
+    * Inspiration behind the overall look and feel of the app
 https://www.youtube.com/watch?v=_ivIUCSOZ78&t=5482s
     * Tutorial I followed for setting up the Android Studio virtual device
 https://www.youtube.com/watch?v=x_lvdLil0Fk
