@@ -65,6 +65,7 @@ You can run the application via the localhost option. But to run it via an Andro
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Directory Structure
+```
 ├───assets
 │   ├───fonts
 │   ├───icons
@@ -72,6 +73,7 @@ An app developed in React Native as a final project for CS 455 in the University
 ├───components
 ├───constants
 └───screens
+```
 
 # Relevant files to mention
 An app developed in React Native as a final project for CS 455 in the University of Regina
