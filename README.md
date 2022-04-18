@@ -14,8 +14,16 @@ To maintain the simplicity and overall effectiveness of this application, the us
 * React Native Screens
 
 # Table of Contents
-An app developed in React Native as a final project for CS 455 in the University of Regina
-* [Installation Instructions](#Installation Instructions "Goto Installation Instructions")
+* [Installation Instructions](#Installation-Instructions "Goto Installation Instructions")
+* [Developer Operating Instructions](#Developer-Operating-Instructions "Goto Developer Operating Instructions")
+* [User Operating Instructions](#User-Operating-Instructions "Goto User Operating Instructions")
+* [Features](#Features "Goto Features")
+* [Bug Lists](#Bug-Lists "Goto Features")
+* [Planned Features to add](#Planned-Features-to-add "Goto Planned Features to add")
+* [Relevant files to mention](#Relevant-files-to-mention "Goto Relevant files to mention")
+* [Copyright and License](#Copyright-and-License "Goto Copyright and License")
+* [Contact Information and Support](#Contact-Information-and-Support "Goto Contact Information and Support")
+* [Credit and Acknowledgments](#Credit-and-Acknowledgments "Goto Credit and Acknowledgments")
 
 # Installation Instructions
 If you would like to install the application on your computer, following are the instructions on how to do so:
