@@ -1,6 +1,31 @@
-import {Text} from 'react-native'
+import {
+  Text, 
+  View, 
+  SafeAreaView, 
+  Image, 
+  StatusBar, 
+  FlatList} from 'react-native';
 
-const Information = () => {
+import { 
+  COLOURS, 
+  SIZES, 
+  SHADOWS, 
+  FONTS, 
+  assets } from '../constants';
+  
+import { 
+  CircleButton, 
+  RectangleButton, 
+  PicInfo, FocusedStatusBar, 
+  InfoDes, 
+  BidsInfo } from '../components';
+
+
+const Information = ({navigation, route}) => {
+  
+  const {data} = route.params;
+  console.log()
+
   return (
    <Text>Information</Text> 
   )

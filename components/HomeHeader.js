@@ -2,7 +2,7 @@ import { View, Text, TextInput, Image } from 'react-native'
 import React from 'react'
 
 import { COLOURS, FONTS, SIZES, assets } from '../constants'
-const HomeHeader = () => {
+const HomeHeader = ({onSearch}) => {
   return (
     <View style={{
       backgroundColor: COLOURS.primary,
@@ -35,6 +35,10 @@ const HomeHeader = () => {
           />
         </View>
       </View>
+
+       {/* creating the css for greeting the user
+            into the app via their name and the apps
+            catchphrase */}      
       <View style={{
         marginVertical: SIZES.font
       }}>
@@ -53,6 +57,31 @@ const HomeHeader = () => {
         }}>
           Browse our set of prints
         </Text>
+      </View>
+
+      {/* creating the feature for searching
+          titles in the app */}   
+      <View style={{
+        marginTop: SIZES.font
+      }}>
+        <View style={{
+          width: '100%',
+          borderRadius: SIZES.font,
+          backgroundColor: COLOURS.gray,
+          flexDirection: 'row',
+          alignItems: 'center',
+          paddingHorizontal: SIZES.font,
+          paddingVertical: SIZES.small -2
+        }}>
+
+          <TextInput
+            placeholder='Search Prints'
+            style={{flex:1}}
+            //Scans through the titles to match
+            //the users input
+            onChangeText={onSearch}
+          />
+        </View>
       </View>
     </View>
   )
