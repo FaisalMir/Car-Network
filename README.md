@@ -20,6 +20,7 @@ To maintain the simplicity and overall effectiveness of this application, the us
 * [Features](#Features "Goto Features")
 * [Bug Lists](#Bug-Lists "Goto Features")
 * [Planned Features to add](#Planned-Features-to-add "Goto Planned Features to add")
+* [Directory Structure](#Directory-Structure "Goto Directory Structure")
 * [Relevant files to mention](#Relevant-files-to-mention "Goto Relevant files to mention")
 * [Copyright and License](#Copyright-and-License "Goto Copyright and License")
 * [Contact Information and Support](#Contact-Information-and-Support "Goto Contact Information and Support")
@@ -62,6 +63,15 @@ You can run the application via the localhost option. But to run it via an Andro
 
 # User Operating Instructions
 An app developed in React Native as a final project for CS 455 in the University of Regina
+
+# Directory Structure
+├───assets
+│   ├───fonts
+│   ├───icons
+│   └───images
+├───components
+├───constants
+└───screens
 
 # Relevant files to mention
 An app developed in React Native as a final project for CS 455 in the University of Regina
