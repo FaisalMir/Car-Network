@@ -15,6 +15,7 @@ To maintain the simplicity and overall effectiveness of this application, the us
 
 # Table of Contents
 An app developed in React Native as a final project for CS 455 in the University of Regina
+* [Installation Instructions](#Installation Instructions "Goto Installation Instructions")
 
 # Installation Instructions
 If you would like to install the application on your computer, following are the instructions on how to do so:
@@ -70,7 +71,7 @@ An app developed in React Native as a final project for CS 455 in the University
 Copyright (C) 2022 Car Network
 
 # Contact Information and Support
-For contact information and any support, my email is: fmu234@uregina.ca
+For contact information and any support, my email is: fmu324@uregina.ca
 
 # Credit and Acknowledgments
 An app developed in React Native as a final project for CS 455 in the University of Regina
