@@ -138,6 +138,8 @@ For contact information and any support, my email is: fmu324@uregina.ca
 [https://www.kindpng.com/imgv/bmwbo_love-heart-clipart-royalty-free-heart-hd-png/](https://www.kindpng.com/imgv/bmwbo_love-heart-clipart-royalty-free-heart-hd-png/)
   * Back button icon
  [https://www.flaticon.com/free-icon/back-button_93634](https://www.flaticon.com/free-icon/back-button_93634)
+   * Dollar sign icon
+ https://simple.m.wikipedia.org/wiki/File:Double-barred_dollar_sign.svg
    * How to create a searchbar:
    https://www.youtube.com/watch?v=B7dn6YlWniI
     * Bidding app:
