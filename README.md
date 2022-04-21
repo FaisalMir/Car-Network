@@ -1,6 +1,8 @@
 
 # Showcase
-An app developed in React Native as a final project for CS 455 in the University of Regina
+![First Screenshot](showcase/ss1.png)
+![Second Screenshot](showcase/ss2.png)
+![Third Screenshot](showcase/ss3.png)
 
 # Description
 Car Network is a real-time bidding application designed for photographers to sell prints of their pictures to consumers. Users bid on a picture that they like and once the time goes down to zero, the user with the highest bid gains the rights to purchase the print!
