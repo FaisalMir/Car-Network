@@ -1,10 +1,14 @@
 
 # Showcase
 <div align="center">
-    <img src="showcase/ss2.png" width="400px"</img> 
+    <img src="showcase/ss1.png" width="300px"</img> 
 </div>
-![Second Screenshot](showcase/ss2.png)
-![Third Screenshot](showcase/ss3.png)
+<div align="center">
+    <img src="showcase/ss2.png" width="300px"</img> 
+</div>
+<div align="center">
+    <img src="showcase/ss3.png" width="300px"</img> 
+</div>
 
 # Description
 Car Network is a real-time bidding application designed for photographers to sell prints of their pictures to consumers. Users bid on a picture that they like and once the time goes down to zero, the user with the highest bid gains the rights to purchase the print!
