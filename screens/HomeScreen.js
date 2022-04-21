@@ -35,13 +35,13 @@ const HomeScreen = () => {
             //identifer for each element
             keyExtractor={(item) => item.id}
 
-            //hides the scrollbar that would appear when moving
-            //the page up or down
-            showsVerticalScrollIndicator={false}
-
             //specifies header component to render at the top of any
             //and all items
             ListHeaderComponent={<HomeHeader />}
+
+            //hides the scrollbar that would appear when moving
+            //the page up or down
+            showsVerticalScrollIndicator={false}
           />
         </View>
         <View style={{
@@ -52,8 +52,8 @@ const HomeScreen = () => {
           left: 0,
           zIndex: -1,
         }}>
-          <View style={{height: 300, backgroundColor: COLOURS.primary}} />
-          <View style={{flex: 1, backgroundColor: COLOURS.white}} />
+          <View style={{backgroundColor: COLOURS.primary, height: 300}} />
+          <View style={{backgroundColor: COLOURS.white, flex: 1}} />
         </View>
       </View>
     </SafeAreaView>

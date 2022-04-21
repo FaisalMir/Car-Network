@@ -38,7 +38,7 @@ const HeaderDetails = ({data, navigation}) => (
     height: 373
   }}>
     <Image 
-      source={assets.car1}
+      source={data.image}
       resizeMode="cover"
       style={{width:'100%', height: '100%'}}
     />
@@ -128,6 +128,8 @@ const Information = ({navigation, route}) => {
           </View>
         </React.Fragment>
       )}
+      //the item.id specifies that it will be a unique
+      //identifer for each element
       keyExtractor={(item) => item.id}
       contentContainerStyle={{paddingBottom: SIZES.extraLarge*3}}
 

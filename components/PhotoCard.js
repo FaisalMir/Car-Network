@@ -3,14 +3,9 @@
   image, the ability to like an image, the bid timer, the title,
   price and being able to place a bid.  */}
 
-import { View, Text, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-
-//manually importing the image file
-import car1 from '../assets/images/car1.jpg';
-import car2 from '../assets/images/car2.jpg';
-import { PhotoData } from '../constants';
 
 //importing the files needed from Button.js
 import { CircleButton, RectangleButton } from './Button';
@@ -21,9 +16,8 @@ import { COLOURS, SIZES, SHADOWS, assets} from '../constants';
 //importing the files needed from PicInfo.js
 import { PicTitle, Price, PicInfo } from './PicInfo';
 
-const PhotoCard = (data) => {
+const PhotoCard = ({data}) => {
   const navigation = useNavigation();
-  console.log(PhotoData)
 
   return (
     <View style={{
@@ -43,7 +37,9 @@ const PhotoCard = (data) => {
           // source = {data.image}
           //which would then pull all the required data from PhotoData.js
           //but instead I am manually calling it in
-          source={car1}
+
+          //edit: it has been fixed now
+          source={data.image}
 
           resizeMode="cover"
           style={{

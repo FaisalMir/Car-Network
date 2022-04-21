@@ -1,3 +1,6 @@
+{/*This file handles what the top part of the HomeScreen.js looks like.
+  Contains the search feature as well. */}
+
 import { View, Text, TextInput, Image } from 'react-native'
 import React from 'react'
 
@@ -5,13 +8,13 @@ import { COLOURS, FONTS, SIZES, assets } from '../constants'
 const HomeHeader = ({onSearch}) => {
   return (
     <View style={{
-      backgroundColor: COLOURS.primary,
-      padding: SIZES.font
+      padding: SIZES.font,
+      backgroundColor: COLOURS.primary
     }}>
       <View style={{
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'space-between'
       }}>
         <Image 
           source={assets.logo}
@@ -26,7 +29,7 @@ const HomeHeader = ({onSearch}) => {
           height: 45
         }}>
           <Image 
-            source={assets.person01}
+            source={assets.intro}
             resizeMode="contain"
             style={{
               width: '100%',
@@ -44,14 +47,14 @@ const HomeHeader = ({onSearch}) => {
       }}>
         <Text style={{
           fontFamily: FONTS.regular,
-          fontSize: SIZES.small,
+          fontSize: SIZES.regular,
           color: COLOURS.white
         }}>
-          Hello, Faisal
+          Hello, User
         </Text>
         <Text style={{
           fontFamily: FONTS.semibold,
-          fontSize: SIZES.medium,
+          fontSize: SIZES.large,
           color: COLOURS.white,
           marginTop: SIZES.base/2
         }}>

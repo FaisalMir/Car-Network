@@ -18,7 +18,7 @@ const PhotoData = [
         //the date the image was taken
         date: "August 3, 2021",
         //a short description about the image
-        description: "This picture was taken right before the beginning of spring",
+        description: "This picture was taken right before the beginning of spring.",
         //the price of the bid at the time of viewing
         price: 50,
         //connecting the image of the car with these list of crieterias

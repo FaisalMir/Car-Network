@@ -2,6 +2,7 @@
 import logo from "../assets/icons/logo.png";
 import heart from "../assets/icons/heart.png"
 import back from "../assets/icons/back.png"
+import dollar from "../assets/icons/dollar.png"
 
 //importing all the images for the app
 import car1 from "../assets/images/car1.jpg";
@@ -16,6 +17,7 @@ export default{
     logo,
     heart,
     back,
+    dollar,
 
     car1,
     car2,

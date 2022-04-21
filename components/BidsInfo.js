@@ -10,7 +10,7 @@ const BidsInfo = (bids) => {
       <Image 
         source={bids.image}
         resizeMode="contain"
-        style={{width:48, height: 48}}
+        style={{width:46, height: 46}}
       />
 
       <View>

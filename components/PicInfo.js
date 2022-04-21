@@ -1,8 +1,15 @@
+{/*this file contains details for the Information.js file.
+   The styling for the title, subtitle, price, bid timer and
+  handles how the image should look like.*/}
+
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 
 //importing the files needed from the constants folder
 import { SIZES, FONTS, COLOURS, SHADOWS, assets } from '../constants'
+
+//handles the styling and look of the title and subtitle of the picture
+//provides the font size, style, the colour
 export const PicTitle = ({title, subTitle, subTitleSize, titleSize}) => {
   return (
     <View>
@@ -12,7 +19,7 @@ export const PicTitle = ({title, subTitle, subTitleSize, titleSize}) => {
         color: COLOURS.primary
       }}>{title}</Text>
       <Text style={{
-        fontFamily: FONTS.regular,
+        fontFamily: FONTS.medium,
         fontSize: subTitleSize,
         color: COLOURS.primary
       }}>{subTitle}</Text>
@@ -20,31 +27,37 @@ export const PicTitle = ({title, subTitle, subTitleSize, titleSize}) => {
   )
 }
 
+//handles importing the logo for the dollar sign 
+//and imports the price from PhotoData.js and sets
+//the font size, colour and font type
 export const Price = ({price}) => {
 return (
     <View style={{
       flexDirection: 'row',
       alignItems: 'center'
     }}>
+      <Text>Current price: </Text>
       <Image 
         source={assets.dollar}
         resizeMode= "contain"
         style={{
-          width: 20,
-          height: 20,
-          marginRight: 2
+          width: 12,
+          height: 12,
+          marginRight: 1
         }}
       />
       <Text style={{
+        color: COLOURS.primary,
         fontFamily: FONTS.medium,
-        fontSize: SIZES.font,
-        color: COLOURS.primary
+        fontSize: SIZES.font
       }}>
+        {price}
       </Text>
     </View>
  )
 }
 
+//handles the image and the size of it for the screen
 export const ImageCmp = (imgURL, index) => {
 return (
     <Image
@@ -59,30 +72,37 @@ return (
     )
 }
 
+//contains the styling of the bid timer
 export const BidEnd = () => {
     return (
+    //the styling for when the timer
+    //for when the bid ends
     <View style={{
+      alignItems: 'center',
+      justifyContent: 'center',
       paddingHorizontal: SIZES.font,
       paddingVertical: SIZES.base,
-      backgroundColor: COLOURS.white,
-      justifyContent: 'center',
-      alignItems: 'center',
-      ...SHADOWS.light,
+      backgroundColor: COLOURS.white,  
       elevation: 1,
-      maxWidth: '50%'
-
+      maxWidth: '50%',
+      ...SHADOWS.light
     }}>
+        {/*The text style and font for 
+          the timer */}
         <Text style={{
+          color: COLOURS.primary,
           fontFamily: FONTS.regular, 
-          fontSize: SIZES.small, 
-          color: COLOURS.primary
+          fontSize: SIZES.small
         }}>
           Ending in
         </Text>
+
+        {/*The text style and font for 
+          the timer */}
         <Text style={{
+          color: COLOURS.primary,
           fontFamily: FONTS.semibold, 
-          fontSize: SIZES.medium, 
-          color: COLOURS.primary
+          fontSize: SIZES.medium
         }}>
           4h 26m
         </Text>
@@ -90,14 +110,16 @@ export const BidEnd = () => {
     )
 }
 
+//the styling provided for the information 
+//about the picture such as the title and subtitle
 export const PicInfo = () => {
     return (
     <View style={{
+        flexDirection:"row",
+        justifyContent: 'space-between',
         width: "100%",
         paddingHorizontal: SIZES.font,
-        marginTop: -SIZES.extraLarge,
-        flexDirection:"row",
-        justifyContent: 'space-between'
+        marginTop: -SIZES.extraLarge
     }}>
         <BidEnd />
     </View>
