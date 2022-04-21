@@ -1,3 +1,4 @@
+
 # Showcase
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
@@ -17,11 +18,11 @@ To maintain the simplicity and overall effectiveness of this application, the us
 * [Installation Instructions](#Installation-Instructions "Goto Installation Instructions")
 * [Operating Instructions](#Operating-Instructions "Goto Operating Instructions")
 * [How to use the App](#How-to-use-the-App  "Goto How to use the App ")
+* [Directory Structure](#Directory-Structure "Goto Directory Structure")
+* [Relevant files to mention](#Relevant-files-to-mention "Goto Relevant files to mention")
 * [Features](#Features "Goto Features")
 * [Bug Lists](#Bug-Lists "Goto Features")
 * [Planned Features to add](#Planned-Features-to-add "Goto Planned Features to add")
-* [Directory Structure](#Directory-Structure "Goto Directory Structure")
-* [Relevant files to mention](#Relevant-files-to-mention "Goto Relevant files to mention")
 * [Copyright and License](#Copyright-and-License "Goto Copyright and License")
 * [Contact Information and Support](#Contact-Information-and-Support "Goto Contact Information and Support")
 * [Credit and Acknowledgments](#Credit-and-Acknowledgments "Goto Credit and Acknowledgments")
@@ -71,12 +72,38 @@ An app developed in React Native as a final project for CS 455 in the University
 │   ├───icons
 │   └───images
 ├───components
+│   ├───BidsInfo.js
+│   ├───Button.js
+│   └───FocusedStatusBar.js
+│   ├───HomeHeader.js
+│   └───InfoDes.js
+│   └───PhotoCard.js
+│   ├───PicInfo.js
+│   └───index.js
 ├───constants
-└───screens
+│   ├───PhotoData.js
+│   ├───assets.js
+│   └───index.js
+│   ├───theme.js
+├───screens
+│   ├───HomeScreen.js
+│   ├───Information.js
+├───App.js
 ```
 
 # Relevant files to mention
-An app developed in React Native as a final project for CS 455 in the University of Regina
+
+| File Name | Description |
+| ------------- | ------------- |
+| HomeScreen.js  | Content Cell  |
+| Information.js  | Content Cell  |
+| BidsInfo.js  | Content Cell  |
+| InfoDes.js  | Content Cell  |
+| PhotoCard.js  | Content Cell  |
+| PicInfo.js  | Content Cell  |
+| PhotoData.js  | Content Cell  |
+| assets.js  | Content Cell  |
+| theme.js  | Content Cell  |
 
 # Features
 An app developed in React Native as a final project for CS 455 in the University of Regina
@@ -85,7 +112,13 @@ An app developed in React Native as a final project for CS 455 in the University
 An app developed in React Native as a final project for CS 455 in the University of Regina
 
 # Planned Features to add
-An app developed in React Native as a final project for CS 455 in the University of Regina
+I have a lot of plans for features that I would like to add overtime since it would make the app more complete and much more useable. And I do believe that the concept is something that would appeal to a lot of people looking to decorate their rooms and such with prints.
+
+* User registration and login screen: At the moment with how the app is, it is a default user rather than the user being able to create their own account and having personalized settings. With the help of a database software such as Firebase, this could be integrated into the app
+* The ability to post a print for bid: After the integration of the user registration, adding the ability to post a bid for auction would be nice. By integrating the ability to upload a picture, the starting bid and the duration the bid would run for.
+* Wallet: users can have money in the app either in terms of real-world money or cryptocurrency to take part in bids.
+* Sound effects: adding sound effects such as when a user places a bid or posts an action or even placing a bid; sound effects can add a lot to the user experience and it allows the user to have a pleasant experience as well.
+* Light mode and dark mode: enabling the ability to switch between light mode and dark mode in the app in the settings menu.
 
 # Copyright and License
 Copyright (C) 2022 Car Network
