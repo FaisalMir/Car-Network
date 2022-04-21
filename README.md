@@ -1,13 +1,13 @@
 
 # Showcase
-<div align="justify">
+<div align="left">
     <img src="showcase/ss1.png" width="300px"</img> 
+</div>
+<div align="right">
+    <img src="showcase/ss3.png" width="300px"</img> 
 </div>
 <div align="justify">
     <img src="showcase/ss2.png" width="300px"</img> 
-</div>
-<div align="justify">
-    <img src="showcase/ss3.png" width="300px"</img> 
 </div>
 
 # Description
