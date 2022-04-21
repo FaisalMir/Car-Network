@@ -1,5 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
+
+//importing the files needed from the constants folder
 import { SIZES, FONTS, COLOURS, SHADOWS, assets } from '../constants'
 export const PicTitle = ({title, subTitle, subTitleSize, titleSize}) => {
   return (

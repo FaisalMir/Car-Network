@@ -1,3 +1,7 @@
+{/*this .js file is importing all the variable and constants in the
+    components folder so that it can be used in other files. Doing it 
+    this way promotes reusability in the code */}
+
 import HomeHeader from "./HomeHeader";
 import PhotoCard from "./PhotoCard";
 import FocusedStatusBar from "./FocusedStatusBar";

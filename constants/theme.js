@@ -1,11 +1,11 @@
-//the code for the overall look and feel of the app
-//ranging from the colours to the fonts
+{/*the code for the overall look and feel of the app
+ranging from the colours to the fonts. This file enables
+the usage of constants and promotes reusability of functions
+for better efficiency and better readability of code */}
 
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
-
-
-//reminder to change values
+//all the fonts to be used in the app and their templates
 export const FONTS = {
     bold: "InterBold",
     light: "InterLight",
@@ -14,23 +14,26 @@ export const FONTS = {
     semibold: "InterSemiBold",
 };
 
+//the sizes of any texts and images
 export const SIZES = {
-    extraLarge: 24,
-    large: 18,
-    medium: 16,
-    font: 14,
-    small: 12, 
-    base: 8,
+    extraLarge: 22,
+    large: 16,
+    medium: 14,
+    font: 12,
+    small: 10, 
+    base: 7,
 };
 
+//the colours to be used in the app
 export const COLOURS = {
-    primary: "#001F2D",
+    primary: "#2f4f4f",
     secondary: "#4D626C",
 
     white: "#FFF",
     gray: "#74858C",
 };
 
+//the shadow effects in the app
 export const SHADOWS = {
     light: {
       shadowColor: COLOURS.gray,
@@ -49,20 +52,20 @@ export const SHADOWS = {
         width: 0,
         height: 3,
       },
-      shadowOpacity: 0.29,
-      shadowRadius: 4.65,
+      shadowOpacity: 0.26,
+      shadowRadius: 4.87,
   
-      elevation: 7,
+      elevation: 8,
     },
     dark: {
       shadowColor: COLOURS.gray,
       shadowOffset: {
         width: 0,
-        height: 7,
+        height: 6,
       },
-      shadowOpacity: 0.41,
-      shadowRadius: 9.11,
+      shadowOpacity: 0.40,
+      shadowRadius: 9.06,
   
-      elevation: 14,
+      elevation: 12,
     },
 };
