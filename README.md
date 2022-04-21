@@ -141,6 +141,8 @@ For contact information and any support, my email is: fmu324@uregina.ca
 * The entirety of the project was coded on Visual Studio Code: https://code.visualstudio.com/
 * For getting started on developing on VS Code and having the right dependencies, I used this: https://blog.expo.dev/expo-cli-2-0-released-a7a9c250e99c
 * For gaining access to a Android Virtual device as I coded, I used Android Studio: https://developer.android.com/studio
+* Inspiration behind the overall look and feel of the app:
+https://www.youtube.com/watch?v=_ivIUCSOZ78&t=5482s
 * As well as these other sources:
   * All the pictures for the cars were taken by me: 
   https://www.rafhin.com/
@@ -156,7 +158,5 @@ For contact information and any support, my email is: fmu324@uregina.ca
       https://www.youtube.com/watch?v=UG1pPq8gl_c
     * Guidline for basic React Native coding:
 		https://www.youtube.com/watch?v=6euMQsGt7Qs
-    * Inspiration behind the overall look and feel of the app
-https://www.youtube.com/watch?v=_ivIUCSOZ78&t=5482s
     * Tutorial I followed for setting up the Android Studio virtual device
 https://www.youtube.com/watch?v=x_lvdLil0Fk
