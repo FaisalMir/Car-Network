@@ -1,6 +1,10 @@
 
 # Showcase
-![First Screenshot](showcase/ss1.png)
+<img
+  src="showcase/ss1.png"
+  alt="Alt text"
+  title="HomeScreen"
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
 ![Second Screenshot](showcase/ss2.png)
 ![Third Screenshot](showcase/ss3.png)
 
