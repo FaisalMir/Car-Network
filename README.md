@@ -1,13 +1,15 @@
 
 # Showcase
-<div align="left">
-    <img src="showcase/ss1.png" width="300px"</img> 
-</div>
-<div align="right">
+<div class="row">
+  <div class="column">
+    <img src="showcase/ss1.png" width="300px"</img>
+  </div>
+  <div class="column">
     <img src="showcase/ss3.png" width="300px"</img> 
-</div>
-<div align="justify">
-    <img src="showcase/ss2.png" width="300px"</img> 
+  </div>
+  <div class="column">
+    <img src="showcase/ss2.png" width="300px"</img>
+  </div>
 </div>
 
 # Description
