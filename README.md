@@ -1,4 +1,5 @@
 
+
 # Showcase
 <div class="row">
   <div class="column">
@@ -106,36 +107,13 @@ The user is greeted by the app at the very start. They are then allowed to scrol
 
 | File Name | Description |
 | ------------- | ------------- |
-| HomeScreen.js  | This is the screen when the user first opens the app. At the very
-    top of the screen is the logo for the app. Below that, the user is greeted
-    by their app and it displayes the apps catchphrase: "Browse our set of prints".
-    
-  This screen shows all the auctions that are currently active. It displays the image,
-    title, the creator, the time remaining before the bid is over, how much it is, and
-    the ability to place a bid which takes the user to the Information.js screen.  |
-| Information.js  | This is the screen when the user wants to see more info about
-  about the print and what it is about. Half of the top part of the
-  screen is taken by the picture and it displays the title of the
-  print, who created it, the story behind it and it gives the user
-  the option to place a bid.  |
-| PhotoCard.js  | This file contains all the style for the listings. How each
-  of the listing is supposed to look, the border, size, calling the
-  image, the ability to like an image, the bid timer, the title,
-  price and being able to place a bid.  |
-| PicInfo.js  | This file contains details for the Information.js file.
-   The styling for the title, subtitle, price, bid timer and
-  handles how the image should look like.  |
-| PhotoData.js  | This file contains all the dummy data needed for the app
-    to be designed and working. For this version of the app,
-    all the information is being included and coded in. But
-    in the future versions of the app, these informations
-    will instead be dynamic so users can fill in the data
-    points as required.  |
+| HomeScreen.js  | This is the screen when the user first opens the app. At the very top of the screen is the logo for the app. Below that, the user is greeted by their app and it displayes the apps catchphrase: "Browse our set of prints". This screen shows all the auctions that are currently active. It displays the image, title, the creator, the time remaining before the bid is over, how much it is, and the ability to place a bid which takes the user to the Information.js screen.  |
+| Information.js  | This is the screen when the user wants to see more info about about the print and what it is about. Half of the top part of the screen is taken by the picture and it displays the title of the print, who created it, the story behind it and it gives the user the option to place a bid.  |
+| PhotoCard.js  | This file contains all the style for the listings. How each of the listing is supposed to look, the border, size, calling the image, the ability to like an image, the bid timer, the title, price and being able to place a bid.  |
+| PicInfo.js  | This file contains details for the Information.js file. The styling for the title, subtitle, price, bid timer and handles how the image should look like.  |
+| PhotoData.js  | This file contains all the dummy data needed for the app to be designed and working. For this version of the app, all the information is being included and coded in. But in the future versions of the app, these informations will instead be dynamic so users can fill in the data points as required.  |
 | assets.js  | Contains all the images to be used in the program such as the car images and the logos  |
-| theme.js  | The code for the overall look and feel of the app
-ranging from the colours to the fonts. This file enables
-the usage of constants and promotes reusability of functions
-for better efficiency and better readability of code  |
+| theme.js  | The code for the overall look and feel of the app ranging from the colours to the fonts. This file enables the usage of constants and promotes reusability of functions for better efficiency and better readability of code  |
 
 # Planned Features to add
 I have a lot of plans for features that I would like to add overtime since it would make the app more complete and much more useable. And I do believe that the concept is something that would appeal to a lot of people looking to decorate their rooms and such with prints.
